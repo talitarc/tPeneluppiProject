@@ -1,0 +1,24 @@
+{
+  "name": "talitapeneluppiproject",
+  "version": "1.0.0",
+  "description": "\"First Gulp install\"",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/talitarc/tPeneluppiProject.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/talitarc/tPeneluppiProject/issues"
+  },
+  "homepage": "https://github.com/talitarc/tPeneluppiProject#readme",
+  "devDependencies": {
+    "gulp": "^4.0.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-sass": "^4.0.2"
+  }
+}
