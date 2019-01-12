@@ -1,0 +1,91 @@
+* {
+    padding:0;
+    margin:0;
+    vertical-align:baseline;
+    list-style:none;
+    border:0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+header {
+    background-color: #bfc0c0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 20px 0px;
+
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    padding: 20px 0px;
+}
+
+p {
+    padding: 10px;
+}
+
+.btn {
+    font-size: 36px;
+    color: white;
+    padding: 20px;
+    margin: 10px;
+    background-color: #ef8354;
+}
+
+.box-quizz, .result-wrong, .result-right {
+    text-align: center;
+}
+
+.box-quizz {
+    width: 30%;
+    align-self: center;
+    padding: 1em;
+    margin: 0.5em;
+    border: solid 0.2em #2d3142; 
+}
+
+.box-answer {
+    padding: 1em;
+    margin: 0.5em;
+    border: dotted 0.2em #2d3142; 
+}
+
+.img-question, .img-answer {
+    width: 300px;
+}
+
+.subscribe {
+    display: flex;
+    padding: 10px;
+}
+
+h4 {
+    padding: 5px 10px;
+}
+
+.box-email {
+    border: solid #bfc0c0 0.1px;
+    padding: 5px;
+}
+
+.btn-email {
+    padding: 5px;
+    margin-left: 10px;
+}
+
+footer {
+    background-color: #bfc0c0;
+    width: 100%;
+    display: flex;
+}
