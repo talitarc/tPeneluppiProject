@@ -31,6 +31,10 @@ main {
     padding: 20px 0px;
 }
 
+h2 {
+    padding: 10px 0px 0px 0px;
+}
+
 p {
     padding: 10px;
 }
@@ -66,7 +70,7 @@ p {
 }
 
 .img-question, .img-answer {
-    width: 300px;
+    width: 80%;
 }
 
 .subscribe {
@@ -96,7 +100,17 @@ footer {
 }
 
 .before-click, .result-right, .result-wrong {
-    display:none;
+    display: none;
+}
+
+.result-right, .result-wrong {
+    border: solid 0.2em #ef8354;
+    width: 30%;;
+}
+
+.img-answer {
+    padding: 1em;
+    margin: 0.5em;
 }
 
 .answer-clicked {
@@ -105,4 +119,13 @@ footer {
 
 .final-score {
     display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.box-result {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }

@@ -30,6 +30,8 @@ $(document).ready(function() {
             };
         console.log(userScore);
 
+        $('.result').html(`<h3>You got ${userScore} right answers!</h3>`);
+
 //when the quizz is finished, show the result
     
         let score = function () {
@@ -57,5 +59,6 @@ $(document).ready(function() {
         alert("Thank you for subscribing!");
     })
 
+    
     
 })
