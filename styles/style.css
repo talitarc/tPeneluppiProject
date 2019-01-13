@@ -23,7 +23,7 @@ header {
 
 }
 
-form {
+main {
     display: flex;
     flex-direction: column;
     width: 100%;
@@ -52,13 +52,17 @@ p {
     align-self: center;
     padding: 1em;
     margin: 0.5em;
-    border: solid 0.2em #2d3142; 
+    border: solid 0.2em #2d3142;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; 
 }
 
 .box-answer {
     padding: 1em;
     margin: 0.5em;
     border: dotted 0.2em #2d3142; 
+    width: 80%;
 }
 
 .img-question, .img-answer {
@@ -87,5 +91,18 @@ h4 {
 footer {
     background-color: #bfc0c0;
     width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.before-click, .result-right, .result-wrong {
+    display:none;
+}
+
+.answer-clicked {
+    background-color: red;
+}
+
+.final-score {
     display: flex;
 }

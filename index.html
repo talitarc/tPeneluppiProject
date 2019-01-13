@@ -11,20 +11,22 @@
         <h1>Real or Fake?</h1>
 
     </header>
-    <form>
-        <p>Can you say if these news are real or fake?</p>
+    <main>
+        <p>Can you say which news are real or fake?</p>
         <div class="box-quizz">
             <div>
                 <img class="img-question" src="img/licker.png" alt="Man licking a doorbell">
                 <p>California police is looking for a man accused of licking a doorbell for 3 hours</p>
             </div>
+            
+            <form class="box-btn">
+                <input type="submit" value="Real" name="right" class="btn">
+            </form>
+            <form class="box-btn">
+                <input type="submit" value="Fake" name="wrong" class="btn">
+            </form>
 
-            <div class="box-btn">
-                <input type="submit" value="Real" class="btn right">
-                <input type="submit" value="Fake" class="btn wrong">
-            </div>
-
-            <div class="box-answer">
+            <div class="box-answer before-click">
                 <h2>It's real!</h2>
                 <p>The man was caught in a disturbing survellaince video.</p>
                 <h5>Source: <a href="https://www.huffingtonpost.ca/entry/doorbell-licker-caught-on-camera-salinas_us_5c34ea73e4b0116c11f0f0fb?ec_carp=7068440668367709160" target="_blank">The Huffington Post</a></h5>
@@ -36,12 +38,14 @@
                 <p>You can buy a 2019 calendar with shirtless Vladimir Putin photos</p>
             </div>
 
-            <div>
-                <input type="submit" value="Real" class="btn right">
-                <input type="submit" value="Fake" class="btn wrong">
-            </div>
+            <form class="box-btn">
+                <input type="submit" value="Real" name="right" class="btn">
+            </form>
+            <form class="box-btn">
+                <input type="submit" value="Fake" name="wrong" class="btn">
+            </form>
 
-            <div class="box-answer">
+            <div class="box-answer before-click">
                 <h2>It's real!</h2>
                 <p>And it's a big hit in Japan.</p>
                 <h5>Source: 
@@ -54,12 +58,14 @@
                 <p>A man is serious hospitalized after attempting to drive blindfolded for a Bird Box challenge</p>
             </div>
 
-            <div>
-                <input type="submit" value="Real" class="btn wrong">
-                <input type="submit" value="Fake" class="btn right">
-            </div>
+            <form class="box-btn">
+                <input type="submit" value="Real" name="wrong" class="btn">
+            </form>
+            <form class="box-btn">
+                <input type="submit" value="Fake" name="right" class="btn right">
+        </form>
 
-            <div class="box-answer">
+            <div class="box-answer before-click">
                 <h2>It's fake!</h2>
                 <p>The Huzlers publishes fictional news, but many people believe they are serious.</p>
                 <h5>Source: 
@@ -72,12 +78,14 @@
                 <p>A parrot in UK keeps using Amazon's Alexa to buy snacks</p>
             </div>
 
-            <div>
-                <input type="submit" value="Real" class="btn right">
-                <input type="submit" value="Fake" class="btn wrong">
-            </div>
+            <form class="box-btn">
+                <input type="submit" value="Real" name="right" class="btn">
+            </form>
+            <form class="box-btn">
+                <input type="submit" value="Fake" name="wrong" class="btn">
+            </form>
 
-            <div class="box-answer">
+            <div class="box-answer before-click">
                 <h2>It's real</h2>
                 <p>Rocco tryied to purchase strawberries, ice cream and a kettle.</p>
                 <h5>Source: 
@@ -90,12 +98,14 @@
                 <p>A lottery winner was arrested after dumping $200,000 in manure on his former boss lawn</p>
             </div>
 
-            <div>
-                <input type="submit" value="Real" class="btn wrong">
-                <input type="submit" value="Fake" class="btn right">
-            </div>
+            <form class="box-btn">
+                <input type="submit" value="Real" name="wrong" class="btn">
+            </form>
+            <form class="box-btn">
+                <input type="submit" value="Fake" name="right" class="btn">
+            </form>
 
-            <div class="box-answer">
+            <div class="box-answer before-click">
                 <h2>It's fake!</h2>
                 <img src="" alt="">
                 <p>This was the most shared fake news in 2018.</p>
@@ -119,15 +129,13 @@
             
         </div>
 
+    </main>
+    <footer>
         <div class="subscribe">
-            <h4>Subscribe to receive our quizz first!</h4>
+            <h4>Subscribe to receive the next quizz!</h4>
             <input type="email" name="email" id="email" placeholder="email@email.com" class="box-email">
             <input type="submit" value="Submit" class="btn-email">
         </div>
-
-    </form>
-    <footer>
-
 
     </footer>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
